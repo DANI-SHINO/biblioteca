@@ -16,7 +16,7 @@ def generar_informe_usuario(nombre_usuario, prestamos):
     # Título (Texto en blanco sobre la franja)
     c.setFont("Helvetica-Bold", 22)
     c.setFillColor(colors.white)
-    c.drawCentredString(width / 2, height - 2.5*cm, "📚 Informe de Usuario - Biblioteca")
+    c.drawCentredString(width / 2, height - 2.5*cm, "Informe de Usuario - Biblioteca")
 
     # Datos del usuario (Texto en blanco sobre la franja)
     c.setFont("Helvetica", 12)
